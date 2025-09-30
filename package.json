@@ -1,0 +1,37 @@
+{
+  "name": "hurl-gui",
+  "version": "0.0.1",
+  "description": "Gui for Hurl",
+  "main": "dist/app/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -b",
+    "watch": "tsc -b -w",
+    "lint": "eslint -c .eslintrc --ext .ts ./src",
+    "start": "npm run build && electron .",
+    "tsc": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeriousJul/hurl-gui.git"
+  },
+  "keywords": [
+    "hurl",
+    "electron",
+    "angular",
+    "curl",
+    "typescript"
+  ],
+  "author": "Julien Antony",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SeriousJul/hurl-gui/issues"
+  },
+  "homepage": "https://github.com/SeriousJul/hurl-gui#readme",
+  "devDependencies": {
+    "@types/node": "^24.6.0",
+    "electron": "^38.2.0",
+    "typescript": "^5.9.2"
+  }
+}

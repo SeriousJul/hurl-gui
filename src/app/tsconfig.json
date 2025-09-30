@@ -1,0 +1,14 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "composite": true,
+    "outDir": "../../dist/app",
+    "lib": [
+      "esnext"
+    ],
+    "types": [
+      "node",
+      "electron"
+    ],
+  }
+}
